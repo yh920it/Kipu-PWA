@@ -1,0 +1,22 @@
+{
+  "name": "New Harmony Kipu",
+  "short_name": "Kipu",
+  "start_url": "https://nhwc12842.kipuworks.com",
+  "scope": "/kipu/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5709be",
+
+  "icons": [
+    {
+      "src": "Kipu192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Kipu512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

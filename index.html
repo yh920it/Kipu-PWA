@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Kipu</title>
+
+  <!-- Link to your manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Required for Chrome PWAs -->
+  <meta name="theme-color" content="#5709be">
+
+  <!-- Optional icon link -->
+  <link rel="icon" href="icon-192.png">
+</head>
+
+<body style="margin:0;padding:0;background:#fff;">
+  <iframe 
+    src="https://nhwc12842.kipuworks.com"
+    style="border:none;width:100vw;height:100vh;"
+  ></iframe>
+
+  <script>
+    // Register service worker for PWA installation
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
